@@ -19,7 +19,7 @@ module.exports = function preserveCommentHeader(api) {
         if (
           (typeof pattern === "string" &&
             firstComment.value.indexOf(pattern) !== -1) ||
-          (typeof pattern.test === "function" &&
+          (typeof pattern !== "string" &&
             pattern.test(firstComment.value))
         ) {
           path.node.innerComments = path.node.innerComments || [];
