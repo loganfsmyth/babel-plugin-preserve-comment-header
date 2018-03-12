@@ -1,0 +1,14 @@
+{
+  "name": "babel-plugin-preserve-comment-header",
+  "version": "1.0.0",
+  "description": "Explicitly preserve the location of any header comments that match a given pattern.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "babel-plugin"
+  ],
+  "author": "Logan Smyth <loganfsmyth@gmail.com>",
+  "license": "MIT"
+}
