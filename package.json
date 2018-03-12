@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-preserve-comment-header",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Explicitly preserve the location of any header comments that match a given pattern.",
   "main": "index.js",
   "scripts": {
