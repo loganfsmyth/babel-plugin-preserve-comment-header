@@ -18,7 +18,8 @@ module.exports = function preserveCommentHeader(api) {
         if (
           (typeof pattern === "string" &&
             firstComment.value.indexOf(pattern) !== -1) ||
-          pattern.test(firstComment.value)
+          (typeof pattern.test === "function" &&
+            pattern.test(firstComment.value))
         ) {
           path.node.innerComments = path.node.innerComments || [];
 
